@@ -73,7 +73,7 @@ function compararJugadas() {
     return resultadoRonda;
 }
 
-const resultadoDePartida = compararJugadas()
+// const resultadoDePartida = compararJugadas()
 /* -------------------------------------------------------------------------- */
 /*                          CONSIGNA MESA DE TRABAJO                          */
 /* -------------------------------------------------------------------------- */
@@ -92,5 +92,5 @@ function resultadoPartida(texto){
     }
 }
 
-resultadoPartida(resultadoDePartida)
+resultadoPartida(compararJugadas())
 
